@@ -227,6 +227,15 @@ authRoutes.post('/plex', authRateLimit, async (req, res, next) => {
           message: 'Access denied.',
         });
       }
+
+      if (
+        settings.main.mediaServerType === MediaServerType.NOT_CONFIGURED &&
+        user.id === mainUser.id
+      ) {
+        settings.main.mediaServerType = MediaServerType.PLEX;
+        await settings.save();
+        startJobs();
+      }
     }
 
     // Set logged in session

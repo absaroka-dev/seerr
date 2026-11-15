@@ -1489,8 +1489,8 @@
   "components.Setup.configemby": "",
   "components.TvDetails.addtowatchlist": "",
   "components.UserProfile.UserSettings.menuLinkedAccounts": "",
-  "components.Settings.Notifications.usePublicLogo": "Usar el logotipo público de Seerr en lugar del logotipo de la instancia",
-  "components.Settings.Notifications.usePublicLogoTip": "Si tu instancia de Seerr no es accesible públicamente, activa esta opción para que los clientes de correo fuera de tu red puedan mostrar la imagen. La imagen se obtendrá del repositorio público de GitHub.",
+  "components.Settings.Notifications.usePublicLogo": "Usar el logotipo público de Noahflix en lugar del logotipo de la instancia",
+  "components.Settings.Notifications.usePublicLogoTip": "Si tu instancia de Noahflix no es accesible públicamente, activa esta opción para que los clientes de correo fuera de tu red puedan mostrar la imagen. La imagen se obtendrá del repositorio público de GitHub.",
   "components.Settings.RadarrModal.apiKeyHelp": "Encuéntralo en Radarr: Ajustes > General > Seguridad > Clave API",
   "components.Settings.RadarrModal.baseUrlHelp": "Si has configurado una URL base en Radarr (Ajustes > General > Host), introdúcela aquí (ej. /radarr). Si no, déjalo en blanco.",
   "components.Settings.RadarrModal.enableSearchHelp": "Activar automáticamente una búsqueda en Radarr cuando se apruebe una solicitud.",
@@ -1523,7 +1523,6 @@
   "components.Settings.SettingsMain.streamingRegion": "",
   "components.Settings.SettingsMain.streamingRegionTip": "Mostrar sitios de streaming por disponibilidad regional",
   "components.Settings.SettingsMain.validationUrl": "Debe proveer una URL válida",
-  "components.Settings.SettingsMain.validationUrlTrailingSlash": "La URL debe no terminar en una barra final",
   "components.Settings.SettingsMain.youtubeUrl": "URL de YouTube",
   "components.Settings.SettingsMain.youtubeUrlTip": "",
   "components.Settings.SettingsNetwork.apiRequestTimeout": "",
@@ -1695,5 +1694,6 @@
   "components.UserProfile.UserSettings.LinkJellyfinQuickConnectModal.subtitle": "Conexión rápida",
   "components.UserProfile.UserSettings.LinkJellyfinQuickConnectModal.title": "Vincular cuenta de {mediaServerName}",
   "components.UserProfile.UserSettings.LinkJellyfinQuickConnectModal.usePassword": "Usar contraseña en su lugar",
-  "components.Settings.jellyfinSyncFailedConnectionError": "No se pudo conectar con el servidor de {mediaServerName} . Compruebe que se esta ejecutando y es accesible desde Seerr."
+  "components.Settings.jellyfinSyncFailedConnectionError": "No se pudo conectar con el servidor de {mediaServerName} . Compruebe que se esta ejecutando y es accesible desde Noahflix.",
+  "components.RequestModal.noSeasonsAvailable": "Todas las temporadas seleccionadas ya han sido pedidas o ya están disponibles."
 }
