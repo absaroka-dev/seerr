@@ -11,6 +11,50 @@ module.exports = {
   ],
   theme: {
     extend: {
+      // Noahflix theme (2026-11-19). The landing page and brand kit: near-black ink base (#0a0a0f), purple-to-pink-to-gold gradient.
+      // Seerr styles itself almost entirely with these three Tailwind families, so remapping them re-themes the whole app:
+      //   gray   = ink ramp (the dark end: 900 page, 800 cards, 700 inputs and borders, 600 hover lines); the light end is kept for text
+      //   indigo = brand purple (#B44FDB at 500): primary buttons, links, focus rings, selected items
+      //   purple = brand pink (#E14F95 at 500): so every existing "from-indigo-* to-purple-*" gradient becomes the brand purple-to-pink gradient
+      colors: {
+        gray: {
+          50: '#f9f9fb',
+          100: '#f2f2f6',
+          200: '#e6e6ec',
+          300: '#d0d0d9',
+          400: '#a0a0ad',
+          500: '#6e6e7d',
+          600: '#35353f',
+          700: '#23232b',
+          800: '#131318',
+          900: '#0a0a0f',
+          950: '#050508',
+        },
+        indigo: {
+          50: '#faf3fd',
+          100: '#f4e5fa',
+          200: '#e9c9f5',
+          300: '#d9a3ec',
+          400: '#c777e3',
+          500: '#b44fdb',
+          600: '#a03ec7',
+          700: '#8531a6',
+          800: '#6a2884',
+          900: '#4f1f63',
+        },
+        purple: {
+          50: '#fdf2f7',
+          100: '#fce7f1',
+          200: '#f9c9de',
+          300: '#f39cc3',
+          400: '#ea6fa9',
+          500: '#e14f95',
+          600: '#cc3a82',
+          700: '#a82d69',
+          800: '#86285a',
+          900: '#6b2349',
+        },
+      },
       transitionProperty: {
         'max-height': 'max-height',
         width: 'width',
