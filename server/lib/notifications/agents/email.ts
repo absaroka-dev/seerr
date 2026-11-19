@@ -103,7 +103,7 @@ class EmailAgent
     const logoUrl = usePublicLogo
       ? PUBLIC_LOGO_URL
       : applicationUrl
-        ? `${applicationUrl}/logo_full.svg`
+        ? `${applicationUrl}/logo_email.png`
         : undefined;
 
     if (type === Notification.TEST_NOTIFICATION) {
