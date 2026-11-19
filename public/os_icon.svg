@@ -1,23 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Noahflix poodle">
-<title>Noahflix poodle</title>
-<defs><clipPath id="c"><circle cx="128" cy="128" r="124"/></clipPath></defs>
-<circle cx="128" cy="128" r="124" fill="#F2B33D"/>
-<g clip-path="url(#c)" fill="#1C2340" stroke="#F2B33D" stroke-width="6" stroke-linejoin="round">
-  <!-- chest -->
-  <path d="M70 262 C70 214 96 196 128 196 C160 196 186 214 186 262 Z"/>
-  <!-- ears: scalloped fluffy -->
-  <path d="M84 104 C60 104 50 126 52 150 C48 160 50 176 58 184 C58 196 70 204 82 200 C94 206 104 196 102 184 C108 170 106 150 104 132 C104 118 98 106 84 104 Z"/>
-  <path d="M172 104 C196 104 206 126 204 150 C208 160 206 176 198 184 C198 196 186 204 174 200 C162 206 152 196 154 184 C148 170 150 150 152 132 C152 118 158 106 172 104 Z"/>
-  <!-- face / long muzzle -->
-  <path d="M98 108 C98 100 158 100 158 108 C160 140 152 168 146 196 C142 214 114 214 110 196 C104 168 96 140 98 108 Z"/>
-  <!-- topknot cloud -->
-  <path d="M74 112 C56 106 54 82 70 74 C66 52 88 38 104 46 C110 28 146 28 152 46 C168 38 190 52 186 74 C202 82 200 106 182 112 C176 128 156 132 146 124 C138 132 118 132 110 124 C100 132 80 128 74 112 Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="noahflix poodle">
+<title>noahflix poodle</title>
+<defs><linearGradient id="pg" gradientUnits="userSpaceOnUse" x1="20" y1="236" x2="236" y2="20"><stop offset="0" stop-color="#9B3FE6"/><stop offset="0.45" stop-color="#E14F95"/><stop offset="0.78" stop-color="#EF6A3A"/><stop offset="1" stop-color="#F2AC3A"/></linearGradient><clipPath id="pc"><circle cx="128" cy="128" r="124"/></clipPath></defs>
+<circle cx="128" cy="128" r="124" fill="url(#pg)"/>
+<g clip-path="url(#pc)" fill="#121417" stroke="url(#pg)" stroke-width="6" stroke-linejoin="round">
+<path d="M70 262 C70 214 96 196 128 196 C160 196 186 214 186 262 Z"/>
+<path d="M84 104 C60 104 50 126 52 150 C48 160 50 176 58 184 C58 196 70 204 82 200 C94 206 104 196 102 184 C108 170 106 150 104 132 C104 118 98 106 84 104 Z"/>
+<path d="M172 104 C196 104 206 126 204 150 C208 160 206 176 198 184 C198 196 186 204 174 200 C162 206 152 196 154 184 C148 170 150 150 152 132 C152 118 158 106 172 104 Z"/>
+<path d="M98 108 C98 100 158 100 158 108 C160 140 152 168 146 196 C142 214 114 214 110 196 C104 168 96 140 98 108 Z"/>
+<path d="M74 112 C56 106 54 82 70 74 C66 52 88 38 104 46 C110 28 146 28 152 46 C168 38 190 52 186 74 C202 82 200 106 182 112 C176 128 156 132 146 124 C138 132 118 132 110 124 C100 132 80 128 74 112 Z"/>
 </g>
-<!-- eyes + nose -->
-<g fill="#F2B33D">
-  <ellipse cx="114" cy="140" rx="5.5" ry="6.5"/>
-  <ellipse cx="142" cy="140" rx="5.5" ry="6.5"/>
-  <path d="M115 191 C115 183 141 183 141 191 C141 199 133 205 128 205 C123 205 115 199 115 191 Z"/>
-  <path d="M128 205 V212" fill="none" stroke="#F2B33D" stroke-width="3" stroke-linecap="round"/>
+<g fill="url(#pg)">
+<ellipse cx="114" cy="140" rx="5.5" ry="6.5"/>
+<ellipse cx="142" cy="140" rx="5.5" ry="6.5"/>
+<path d="M115 191 C115 183 141 183 141 191 C141 199 133 205 128 205 C123 205 115 199 115 191 Z"/>
+<path d="M128 205 V212" fill="none" stroke="url(#pg)" stroke-width="3" stroke-linecap="round"/>
 </g>
 </svg>
